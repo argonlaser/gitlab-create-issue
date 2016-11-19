@@ -1,0 +1,6 @@
+{
+	"protocol": "https",
+	"hostname": "gitlab.com",
+  "api_verion": "/api/v3/",
+	"accept": "application/vnd.github.v3+json"
+}
