@@ -43,5 +43,5 @@ createIssue(mandatoryPayload, optionalPayload, function (err, res) {
   } else {
     // Do something with response
   }
-
+}
 ```
