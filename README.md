@@ -34,8 +34,18 @@ npm install --save gitlab-create-issue
 # Usage
 ```javascript
 var createIssue = require('gitlab-create-issue')
-var mandatoryPayload = {namespace: 'argonlaser', project: 'gitlab-create-issue-test', PRIVATE_TOKEN: process.env.PRIVATE_TOKEN, title: 'Title'}
-var optionalPayload = {assignee_name: 'argonlaser', due_date: '2018-11-11'}
+var mandatoryPayload = 
+ {
+  namespace: 'argonlaser',
+  project: 'gitlab-create-issue-test',
+  PRIVATE_TOKEN: process.env.PRIVATE_TOKEN,
+  title: 'Title'
+ }
+var optionalPayload =
+ {
+  assignee_name: 'argonlaser',
+  due_date: '2018-11-11'
+ }
 
 createIssue(mandatoryPayload, optionalPayload, function (err, res) {
   if (err) {
