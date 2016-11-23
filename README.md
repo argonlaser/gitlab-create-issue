@@ -25,7 +25,7 @@ npm install --save gitlab-create-issue
   description: 'create issue',
   confidential: 'true' // default is false,
   assignee_name: 'argonlaser' (or) assignee_id: '111111',
-  milestone_name: 'SOME_MILESTONE' (or)  milestone_id: '11123',
+  milestone_id: '11123',
   labels: ['AAA', 'BBB'],
   due_date: 'YYYY-MM-DD'
 }
