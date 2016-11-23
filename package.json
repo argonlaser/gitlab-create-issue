@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/argonlaser/gitlab-create-issue#readme",
   "dependencies": {
+    "async": "^1.5.2",
     "async-series": "0.0.1",
+    "merge": "^1.2.0",
     "path": "^0.12.7",
     "superagent": "^2.3.0",
     "underscore": "^1.8.3"
