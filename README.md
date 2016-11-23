@@ -12,8 +12,8 @@ npm install --save gitlab-create-issue
 <h5>1) mandatoryPayload</h5>
 ```javascript
 {
- namespace: 'wordist',
- project: 'product',
+ namespace: 'argonlaser',
+ project: 'gitlab-create-issue-test',
  PRIVATE_TOKEN: 'xxxxxxx',
  title: 'TITLE'
  }
@@ -39,12 +39,12 @@ var mandatoryPayload =
   namespace: 'argonlaser',
   project: 'gitlab-create-issue-test',
   PRIVATE_TOKEN: process.env.PRIVATE_TOKEN,
-  title: 'Title'
+  title: 'test issue create'
  }
 var optionalPayload =
  {
   assignee_name: 'argonlaser',
-  due_date: '2018-11-11'
+  due_date: '2017-11-01'
  }
 
 createIssue(mandatoryPayload, optionalPayload, function (err, res) {
