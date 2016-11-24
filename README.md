@@ -1,6 +1,10 @@
 # gitlab-create-issue
 Creates gitlab issues with the given payload
 
+# Why gitlab-create-issue?
+The gitlab API requires the project ID to be given as payload to create an issue.
+This module finds the project ID from the project and namespace.
+
 [![Run Status](https://api.shippable.com/projects/58349ac0c5316610006b0615/badge?branch=master)](https://app.shippable.com/projects/58349ac0c5316610006b0615)
 
 # Install
@@ -12,9 +16,9 @@ npm install --save gitlab-create-issue
 <h5>1) mandatoryPayload</h5>
 ```javascript
 {
- namespace: 'wordist',
- project: 'product',
- PRIVATE_TOKEN: 'xxxxxxx',
+ namespace: 'argonlaser',
+ project: 'gitlab-create-issue-test',
+ privateToken: 'xxxxxxx',
  title: 'TITLE'
  }
 ```
@@ -23,9 +27,9 @@ npm install --save gitlab-create-issue
 ```javascript
 {
   description: 'create issue',
-  assignee_name: 'argonlaser' (or) assignee_id: '111111',
+  assigneeName: 'argonlaser' (or) assigneeId: '111111',
   labels: ['AAA', 'BBB'],
-  due_date: 'YYYY-MM-DD'
+  dueDate: 'YYYY-MM-DD'
 }
  ```
 
@@ -36,13 +40,13 @@ var mandatoryPayload =
  {
   namespace: 'argonlaser',
   project: 'gitlab-create-issue-test',
-  PRIVATE_TOKEN: process.env.PRIVATE_TOKEN,
+  privateToken: process.env.privateToken,
   title: 'Title'
  }
 var optionalPayload =
  {
-  assignee_name: 'argonlaser',
-  due_date: '2018-11-11'
+  assigneeName: 'argonlaser',
+  dueDate: '2018-11-11'
  }
 
 createIssue(mandatoryPayload, optionalPayload, function (err, res) {
