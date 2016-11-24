@@ -4,7 +4,10 @@
   "description": "Create issues in gitlab",
   "main": "index.js",
   "scripts": {
-    "test": "standard --fix"
+    "test": "standard && mocha"
+  },
+  "standard": {
+  "env": [ "mocha" ]
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
+    "mocha": "^3.1.2",
     "standard": "^8.5.0"
   }
 }
