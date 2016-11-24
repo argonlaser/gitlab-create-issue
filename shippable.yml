@@ -9,4 +9,5 @@ env:
 build:
   ci:
     - npm install -g mocha
+    - npm install -g standard
     - npm test
