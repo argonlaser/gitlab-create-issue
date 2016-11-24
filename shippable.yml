@@ -3,9 +3,10 @@ language: node_js
 version:
   - 0.12
 
+env:
+  - secure: ICihjwGP4f3eebFWxu+7urUfNK/X/FNcydqDkYTXyUxD8Mkpc3gkanlHsOx1aVo88SKmjH++8WDKSoiuuazRzUFkChD+Yi4BkhHIiI0ELHKUc0KgrgEkwFQUZYu9BUXDIJsa0DeUeeQkzzjMhRNiuR70xJsIKLjmrYPQheqjByUgUGix/fzthOISxyLRBM4yBrXBlw73YJK6oD70ikRwyMTHhbopwC//Y2ryDgnokmfnRDft8CKXZ+PHbtwWO23wscgIfs58N8L96ZjjolslZtZS7Vkc0Gx/k3ZSzqxNwedSv/5ldvjjXVgzyRYKy0LzGqJZjhHI7ItXpzdfNQNNJQ==
+
 build:
   ci:
     - npm install -g mocha
     - mocha test.js
-
-- secure: ICihjwGP4f3eebFWxu+7urUfNK/X/FNcydqDkYTXyUxD8Mkpc3gkanlHsOx1aVo88SKmjH++8WDKSoiuuazRzUFkChD+Yi4BkhHIiI0ELHKUc0KgrgEkwFQUZYu9BUXDIJsa0DeUeeQkzzjMhRNiuR70xJsIKLjmrYPQheqjByUgUGix/fzthOISxyLRBM4yBrXBlw73YJK6oD70ikRwyMTHhbopwC//Y2ryDgnokmfnRDft8CKXZ+PHbtwWO23wscgIfs58N8L96ZjjolslZtZS7Vkc0Gx/k3ZSzqxNwedSv/5ldvjjXVgzyRYKy0LzGqJZjhHI7ItXpzdfNQNNJQ==
