@@ -5,7 +5,7 @@ version:
   - 6.0.0
 
 env:
-  - secure: qODWe6qB2JiQIzzk6PO1Hou2mi1MLCSKtC9Pp8lzPixM1l7sAIHFprLZ7H1vuG6AkGnqrS6/MXHWiA9YWvx1kjrK+zCG3P4dQlz5vHND/MChRZKtnGvEgbrHqKx9akdcXUYbcfjSUL+qClix73+9AyXnkRBD56Wfl1gaMfJVnAH42bubEbBaow6j81Fi+okKXe/LcquHi5qM7ChLovXChcIU3unOvbWkGanE3xQio30EHxF37F9oWB+p0o0sI/5+2ByQgRJfizl8kkV8yFXV4LId2QX3MKnTRhsEIuOXhuCl/IDaf52UlBe6FaGYdufvRmwqv9Vb2Oog2x4o6Qh6Vg==
+  - secure: PUXNpHx0cMEh4fETkR1dDZ7pfuP46dCnT3E1toeI9fQfWfADAQAKzFnfvNCqEWxVTYd6gFYx+tvJXivMcxjaM0IykVCRY3ltHkmQcnSODjpBjnzqTg5O/d991lqfD5XtX7MAg38GIXinbxzRgtBsje5f3if4xnRswkzkIhXn/L3SaZKomf+bVf1YQUKlWMWqFsC07WF/9oZIro5Tp+z2p79UeXbUKOo80R0/ef0ay1rQc7k/EeC7vjb+4dAVc+fYNFax/47p3eZqwvTqr+iwg6ydzGcIjYbbD3YP4kU2Pmcf3wvg6OadIW5fGJNUJpCYOZCKHk+dKNqXKeZCtTsxWg==
 
 build:
   ci:
