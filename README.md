@@ -1,11 +1,11 @@
 # gitlab-create-issue
 Creates gitlab issues with the given payload
 
+[![Run Status](https://api.shippable.com/projects/58349ac0c5316610006b0615/badge?branch=master)](https://app.shippable.com/projects/58349ac0c5316610006b0615)
+
 # Why gitlab-create-issue?
 The gitlab API requires the project ID to be given as payload to create an issue.
 This module finds the project ID from the project and namespace.
-
-[![Run Status](https://api.shippable.com/projects/58349ac0c5316610006b0615/badge?branch=master)](https://app.shippable.com/projects/58349ac0c5316610006b0615)
 
 # Install
 ```bash
