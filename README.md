@@ -14,24 +14,26 @@ npm install --save gitlab-create-issue
 
 # Payload
 <h5>1) mandatoryPayload</h5>
-```javascript
+
+```
 {
  namespace: 'argonlaser',
  project: 'gitlab-create-issue-test',
  privateToken: 'xxxxxxx',
  title: 'TITLE'
- }
+}
 ```
 
 <h5>2) optionalPayload</h5>
-```javascript
+
+```
 {
   description: 'create issue',
   assigneeName: 'argonlaser' (or) assigneeId: '111111',
   labels: ['AAA', 'BBB'],
   dueDate: 'YYYY-MM-DD'
 }
- ```
+```
 
 # Usage
 ```javascript
